@@ -1,0 +1,149 @@
+ There are two types of tags paired and unpaired tags 
+ // we might say video and audio tags are unpaired but by defualt in the brower it will be set has Paired 
+ BLOCK LEVEL ELEMENTS 
+ These thing will take up the Entire space that is there 
+ ex div p h1 
+ //INLINE ELEMENST 
+ these will take up only the neccsery Space Avaible in the Code 
+ ex <span> <a> <img>
+
+ // Heading Tag 
+ It is Used to improve Search Engine Optimization 
+
+ // Formating   Tags 
+ These are Used to Fromat the text for styling without use of CSS 
+
+ We use Mark to Highlight The Text <mark>
+
+ <del>Old Price: ₹1000</del>
+  It will used to Strike the Deal like old price is del 
+
+  // Subscipt here it will be used for like chemical formulas we use right 
+  H<sub>2</sub>O 
+
+  // Superscipt 
+  It will be Like the Power for something and all 
+  X<sup>2</sup>
+
+// Code 
+<code>console.log("Hello");</code>
+it preserves the look of the Code  search engines then progrmmers will understnd it has a Code 
+
+// Pre tag 
+like how do you want that line to be like that only it will exacute 
+
+// span 
+It is Tag Used to style the Speific Portion of the Text 
+
+Two types of Fromatting Tags 1) Physical Formatting tags 2) Logical Formating Tags 
+Physical Formatting Tags Used to Effect only the Physical Appeanrnce of the Tag 
+b,u,i,sub ,sup,pre,small,big
+
+Logical Formating tags 
+strong ,emphases Mark ,del 
+
+//SEMANTIC TAG 
+These tag tells the Meaning Purpose of the Content inside them 
+heade,footer,section,main,figure ,figurecaption
+
+// Non-Semantic tags 
+Thes etags doent not Describe the anything 
+div,span,b,i,br,hr
+
+// Attributes 
+These are the extra Information added inside the tag to modify the apperance and behaviour 
+--- There are Four Types of Attributes 
+1) Core Atrribute 2) Generic 3) International Attribute 4) Global 
+Core Attributes which are used with Most of the Html Elemsnts 
+-- Ex : class id style title 
+
+2) Generic Attributes 
+Generic atrributes are the attribute which are used only with the Specific Element 
+--Ex:src,hieght ,href
+
+3) International Attribute help us to specify language ,text direction,other Internatinal stting for we content 
+Example -- lang its default value will be true 
+ --- direction-- its has two attributes ltr and rtr 
+
+ 4) Global Attributes 
+ These attributes are used by all html Elemsnts 
+ draggle will be having deafalt value based n the tag like fro h1 and all auto false but for the Image tag auto will always be Truee 
+Hidden used to hide the Elemnst 
+
+<h2 dir="auto" contenteditable>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur dicta quae quasi veniam libero accusantium excepturi ea sequi, blanditiis, eius nihil voluptas nemo quod, sint vitae aut? Nulla, consequatur earum.</h2>
+here these ------ contenditable Here actually You Can Edit Inside the Elemsnt 
+
+
+-- List--
+
+ORDERED List It is Used Maintain Format List 
+ ---- Here there is Three Attribute -----
+     <ol type=''></ol>
+1 deafualt value A-->UpperCase a--> LowerCase I-->> Uppercase Roman 
+i-- Lowecase roman 
+start like where it should start from 30   value if it can start from 89 after 100 sothinf like that 
+
+UNOREDERD--LIST 
+--Here for Type -->DISC DEFAULT ,,BULLET ,CIRCLE SQAURE 
+
+<Dl> parent then dt then dd 
+
+-- In Anchor tag You need to inclued Download Option to Download the Actuall Content Inside It 
+
+--- Image Tag there are actual Four attribute src, alt,   width ,hieght
+
+---VIDEO TAG THERE ARE CERTAIN TAGS 1)AUTOPLAY HERE IT PLAYS AUTOMATICALLY 
+                                     2)LOOP IT REPEAT AUTOMATICALLY
+                                      3)MUTED ITS MUTED 
+
+ -- THEN HERE COMES THE AUDIO TAG 1)CONTROLS WHICH SHOWS PAUSE PLAY NEXT EVRYTHING                                      
+                                  2)AUTOPLAY  
+                                   3) LOOP 
+                                    4 MUTED 
+                                    5) PRE-LOAD HERE AUTO-->BROWERS LOADS THE ENRIRE MEDIA 
+                                       -->>MEATDETA ONLY DURATION ,DEMENTIONS 
+                                        -->>> NONE DOES NOT PRE-LOAD ANYTHING ,LOADS ONLY WHEN USER CLICKS 
+
+Used Select User Informatiin 
+
+----->> Forms 
+  It is used to get the Maximum amount of data 
+  -- There two important Attributes Here Action -- And Method 
+
+--Action is Used to tell for which page should the File goes like Will it should go to the 
+Which Page 
+--Method if you use get the Data will be Displayed in the Url and Coming to Post dats will be Hdden 
+
+
+Input TAG here you will useing type attribute and many moe 
+name attribute in input you will be having name has attribute where you need to mentuon the thing that your entering 
+then in the -- Backend when do that it wil strord as Username 
+
+---->>> Label 
+it used to name something like enter username 
+
+---- Another important thing is there are two field here -- FOR AND ID 
+Basicalyy if you use these there will be like in the label if you click on username it will automaticalyy 
+redirect you to the textbox
+
+-- Another one thing is 
+<label for="country">Choose Country:</label>
+<select id="country" name="country">
+  <option value="india">India</option>
+  <option value="usa">USA</option>
+  <option value="uk">UK</option>
+</select>
+   Here as you can see you will be getting the list of things 
+
+   // With the Usage of ID AND FOR 
+   YOU CAN SEE THE USAGE OF SELECT AND OPTION 
+   <form>
+  <label for="course">Select Course:</label>
+  <select id="course" name="course">
+    <option value="">--Select--</option>
+    <option value="html">HTML</option>
+    <option value="css">CSS</option>
+    <option value="js">JavaScript</option>
+  </select>
+</form>
+
