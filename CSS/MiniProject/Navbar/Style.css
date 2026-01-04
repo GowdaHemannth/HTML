@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 75px;
+    border: 1px solid white;
+    align-items: center;
+
+}
+.navLeft{
+    margin-left: 20px;
+}
+.navRight{
+    margin-right: 20px;
+}
+.navRight ul{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    list-style: none;
+    
+   
+   
+   
+}
+.navRight ul li a{
+   
+    text-decoration: none;
+  
+   
+   
+}
+ul li a{
+    list-style: none;
+}
