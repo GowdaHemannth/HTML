@@ -4,6 +4,11 @@
   box-sizing: border-box;
   background-color: white;
   color: black;
+  position: relative;
+  
+}
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 header {
   font-size: 10px;
@@ -43,26 +48,32 @@ ul li a {
   font-size: 20px;
   gap: 20px;
   margin-right: 200px;
+  border: none;
+  outline: none;
 }
 
 .navRight button a {
   background-color: black;
   color: white;
   text-decoration: none;
+  
   border-radius: 40px;
-  padding: 10px 20px;
+  border: none;
+  outline: none;
+  padding: 15px 10px;
 }
 
 /* CSS FOR MAIN */
 main {
-  height: 100vh;
-  width: 100vw;
-  background-color: red;
+  height: 100%;
+  width: 100%;
+  /* background-color: red; */
   display: flex;
 }
 .ArticleLeft {
   width: 65%;
   height: 100%;
+ 
 }
 .ArticleRift {
   width: 65%;
@@ -82,12 +93,14 @@ main {
     font-size: 90px;
     font-weight: 20px;
     line-height: 100px;
+    margin-left: 100px;
    
 }
 .CenterText p{
-    padding-top: 50px;
+    padding-top: 40px;
     font-size: 30px;
     padding-bottom: 70px;
+    margin-left: 100px;
 
 }
 .CenterText button{
@@ -96,9 +109,34 @@ main {
     border-radius: 40px;
     background-color: black;
     color: white;
+    margin-left: 100px;
 }
 
 
 .ImageFitt img{
-  margin-top: 40px;
+  height: 800px;
+  margin-top: 70px;
+  margin-left: 350px;
+  position:absolute;
 }
+ /*  Will Be Working oN Footer Now */
+ footer{
+ 
+  border-top: 2px solid black;
+  position: relative;
+  height: 100px;
+  z-index: 100;
+  background-color: white;
+  /* margin-bottom: 20px; */
+ 
+ 
+ }
+ footer ul{
+    height: 100px;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+ align-items: center;
+   list-style: none;
+
+ }

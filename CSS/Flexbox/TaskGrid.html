@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+                *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .Conatiner{
+            /* height: 100vh; */
+            display: grid;
+            border: 3px solid ;
+            /* Number of Items We Should Give Inorder to Keep The Box Sizess  */
+            /* If One 100PX GIVEN EVERYTHING WILL FOLLOW  */
+
+            /* With Using Relative Units We can make it More Responsive */
+            /* grid-template-columns:40% 30% 20%; */
+            /*  It will create toatl of 3fr then it will divide them  */
+            /* grid-template-columns: 1fr 2fr; */
+            /* grid-template-columns: 50px 100px auto ; */
+            grid-template-columns: repeat(4,1fr);
+        }
+    </style>
+</head>
+<body>
+     <div class="Conatiner">
+        <div class="Box" id="box1">Box1</div>
+        <div class="Box">Box2</div>
+        <div class="Box">Box3</div>
+        <div class="Box">Box4</div>
+        <div class="Box">Box5</div>
+        <div class="Box">Box6</div>
+        <div class="Box">Box7</div>
+        <div class="Box">Box8</div>
+        <div class="Box">Box9</div>
+        
+        <div class="Box">Box10</div>
+    </div>
+</body>
+</html>

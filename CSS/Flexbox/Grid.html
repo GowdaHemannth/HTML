@@ -11,6 +11,9 @@
             box-sizing: border-box;
         }
         .Conatiner{
+            width:  100vw;
+            height: 700px;
+          
             display: grid;
             border: 3px solid ;
             /* Number of Items We Should Give Inorder to Keep The Box Sizess  */
@@ -20,28 +23,62 @@
             /* grid-template-columns:40% 30% 20%; */
             /*  It will create toatl of 3fr then it will divide them  */
             /* grid-template-columns: 1fr 2fr; */
-            /* grid-template-columns: 50px 100px auto ; */
-            grid-template-columns: repeat(4,1fr);
+            grid-template-columns: 50px 100px auto ;
+            /* grid-template-columns: repeat(4,1fr); */
+            /* Here we will be LEARNING NEW CONCEPT Called grid-template-row
+               here to use it we need to comment out the Hiegth in childern and it doesn not give how man grids should be therey */
+               /* grid-template-rows: 50px 75px 100px;
+               grid-auto-rows: 75px;
+            
+               justify-content: center;
+               align-content: center;
+               gap: 20px  30px; */
+                 justify-content: center;
+               align-content: center;
+              
         }
         .Box{
             height: 70px;
             border: 2px solid rebeccapurple;
         }
+        #box1{
+            /* justify-self: end;
+            align-self: end ; */
+              /* grid-column-start: 1;
+                grid-column-end: 3; */
+                grid-row-start: 1;
+                grid-row-end: 3;
+               
+              
+           
+        
+            
+        }
+      
+        #box2{
+             grid-column-start: 1;
+                grid-column-end: 5;
+           
+
+        }
+        #box3{
+             grid-column-start: 1;
+                grid-column-end: 4;
+
+        }
     </style>
 </head>
 <body>
+     
     <div class="Conatiner">
-        <div class="Box">Box1</div>
-        <div class="Box">Box2</div>
-        <div class="Box">Box3</div>
+          
+        <div class="Box" id="box1">Box1</div>
+        <div class="Box"  id="box2">Box2</div>
+        <div class="Box" id="box3">Box3</div>
         <div class="Box">Box4</div>
-        <div class="Box">Box5</div>
-        <div class="Box">Box6</div>
-        <div class="Box">Box7</div>
-        <div class="Box">Box8</div>
-        <div class="Box">Box9</div>
         
-        <div class="Box">Box10</div>
+       
+       
     </div>
 </body>
 </html>
