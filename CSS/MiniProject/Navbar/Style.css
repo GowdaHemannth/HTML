@@ -4,7 +4,7 @@
   box-sizing: border-box;
   background-color: white;
   color: black;
-  position: relative;
+ 
   
 }
 body{
@@ -71,12 +71,12 @@ main {
   display: flex;
 }
 .ArticleLeft {
-  width: 65%;
+  width: 50%;
   height: 100%;
  
 }
 .ArticleRift {
-  width: 65%;
+  width: 50%;
   height: 100%;
   
 }
@@ -118,12 +118,19 @@ main {
   margin-top: 70px;
   margin-left: 350px;
   position:absolute;
+  top: 100px;
+ 
+
+
+  
+  z-index: 1;
 }
  /*  Will Be Working oN Footer Now */
  footer{
  
   border-top: 2px solid black;
   position: relative;
+  top: 0px;
   height: 100px;
   z-index: 100;
   background-color: white;
