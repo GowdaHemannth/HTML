@@ -178,3 +178,4 @@ console.log(Cal(5,6,7));
 let v=Cal(8,9,10)
 console.log(v);
 
+  

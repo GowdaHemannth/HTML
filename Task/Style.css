@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    /* color: white;     */
+}
+
+.navbar a{
+    margin: 0px 15px;
+    text-decoration: none;
+}
+
+.Login button{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: black;
+
+}
+.Main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+
+.Main-Left{
+    width: 50%;
+
+}
+
+.Main-Left h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+
+}
+
+.Main-Left p{
+    position: relative;
+    margin-bottom: 20px;
+
+}
+
+.btn{
+    border: none;
+    padding:10px 20px;
+    border-radius: 20px;
+    
+    /* padding-left:10px ;
+    padding-bottom:10px ;
+    padding-right:10px ;
+    padding-top:10px ; */
+}
+
+.Badge{
+    position: absolute;
+    top: 250px;
+    font-size: 20px;
+    right: 650px;
+    border-radius: 10px;
+    background:red;
+    padding: 10px 15px;
+}
+
+.features{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+   
+
+}
+
+.card{
+    border: 2px;
+    background-color: rgb(215, 235, 235);
+    padding: 60px 60px;
+    text-align: center;
+     position: relative;
+    bottom: 60px;
+}
